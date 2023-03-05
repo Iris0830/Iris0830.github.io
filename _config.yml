@@ -97,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: edinburgh
+# theme: edinburgh
+theme: standrews
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -106,9 +107,7 @@ deploy:
   repo: git@github.com:Iris0830/Iris0830.github.io.git
   branch: gh-pages
 
+# Valid for theme "edinburgh", for theme "standrews", please check _config.yml under themes/standrews directory
 menu:
   About: /about
   Contact: /contact
-#  Instagram: https://www.instagram.com
-#  LinkedIn: https://www.linkedin.com
-#  Facebook: https://www.facebook.com
